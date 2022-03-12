@@ -12,14 +12,14 @@ setup(
     name='rxnmapper',
     version='0.1.4',
     author='RXNMapper team',
-    author_email='phs@zurich.ibm.com, benjamin.hoover@ibm.com',
+    author_email='',
     py_modules=['rxnmapper'],
     description='Reaction atom-mapping from transfomers',
     long_description=long_description,
     long_description_content_type='text/markdown',
     license='MIT',
     install_requires=[
-        'transformers==4.0.0', 'torch==1.5.0', 'scipy==1.4.1'
+        'transformers', 'torch', 'scipy', 'rdkit-pypi'
     ],
     packages=find_packages(),
     package_data={
@@ -30,8 +30,7 @@ setup(
         'Intended Audience :: Developers',
         'Intended Audience :: Science/Research',
         'License :: OSI Approved :: MIT License',
-        'Programming Language :: Python :: 3.6',
-        'Programming Language :: Python :: 3.7',
+        'Programming Language :: Python :: 3.9',
         'Topic :: Software Development :: Libraries :: Python Modules'
     ]
 )
