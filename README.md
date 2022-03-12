@@ -8,22 +8,12 @@ Enable robust atom mapping on valid reaction SMILES. The atom-mapping informatio
 ## Installation
 For all installations, we recommend using `conda` to get the necessary `rdkit` dependency:
 
-### From pip
-```console
-conda create -n rxnmapper python=3.6 -y
-conda activate rxnmapper
-conda install -c rdkit rdkit=2020.03.3.0
-pip install rxnmapper
-```
-
 ### From github
 You can install the package and setup the environment directly from github using:
 
 ```console
 git clone https://github.com/rxn4chemistry/rxnmapper.git 
 cd rxnmapper
-conda env create -f environment.yml
-conda activate rxnmapper
 pip install -e .
 pip install -r requirements.txt
 ```
